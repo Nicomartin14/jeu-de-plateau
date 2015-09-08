@@ -176,8 +176,8 @@ function fightJ1(){
 
 
 function fightJ2(){
-    act2.style.opacity = 1;
     if(joueur.j2.fight== true){
+        act2.style.opacity = 1;
         if(joueur.j1.defense == true){
             if(joueur.j2.arme == "armes0"){
                 pvJ1.innerHTML = joueur.j1.pv -= (wp.armes0.degat / 2);
@@ -248,10 +248,10 @@ function defenseJ2() {
 
 
     var finJ1= new Image;
-    finJ1.src= "../images/bleu.png";
+    finJ1.src= "images/bleu.png";
 
     var finJ2= new Image;
-    finJ2.src= "../images/rouge.png";
+    finJ2.src= "images/rouge.png";
 
 function gameOver(){
     var canvas = document.getElementById('canvas');
