@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>mon jeu de plateau</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    </head>
+
+    <body>
+        <div id="centre">
+        <canvas width="500" height="500" id="canvas" onclick="coord(event)"></canvas>
+        <div id="j1">
+            <div id="pJ1">
+            <p>point de vie : <scan id="pvJ1"></scan></p>
+            <p ><scan id="armeP1"></scan></p>
+            <p>degats : <scan id="degatArme1"></scan></p>
+            </div>
+            </div>
+            <div id="actJ1">
+            <img src="images/attaque1.png" id="attaque1" onclick= "fightJ1()" alt="at1"></img>
+            <img id="armeOrigine1" src="images/armes0.png" alt="arme_actuelle"/>
+            <img src="images/defense1.png" id="defense1" onclick="defenseJ1()"></img>
+            </div>
+            
+        <div id="j2">
+            <div id="pJ2">
+            <p>point de vie : <scan id="pvJ2"></scan></p>
+            <p><scan id="armeP2"> </scan></p>
+            <p>degats : <scan id="degatArme2"></scan></p>
+            </div>
+    </div>
+            <div id="actJ2">
+            <img src="images/attaque2.png" id="attaque2" onclick="fightJ2()" alt="att2"></img>
+            <img id="armeOrigine2" src="images/armes5.png" alt="arme_actuelle"/>
+            <img src="images/defense2.png" id="defense2" onclick="defenseJ2()" type="button"></img>
+            </div>
+<footer> <img src="images/newGame.png" id="newGame" alt="rejouer" width="200" height="150" onclick="jeu();"></img></footer>
+        
+
+<!--        javascript            -->
+    <script src="js/map.js"></script>
+    <script src="js/armes.js"></script>
+    <script src="js/window.js"></script>
+    <script src="js/perso.js"></script>
+    <script src="js/fonctions.js"></script>
+    </body>
+
+</html>
