@@ -1,49 +1,49 @@
 //declaration de l'intro
 var intro = new Image();
-intro.src= "../images/intro.png"
+intro.src= "images/intro.png"
 
 //declaration des variables de terrains
 var asteroide = new Image();
-asteroide.src="../images/astéroide.png";
+asteroide.src="images/astéroide.png";
 
 var etoile= new Image();
-etoile.src="../images/etoile.png"; 
+etoile.src="images/etoile.png"; 
 
 
 //déclaration des variables armes
 var canon1= new Image();
-canon1.src="../images/armes0.png";
+canon1.src="images/armes0.png";
 
 var canon2 = new Image;
-canon2.src = "../images/armes5.png";
+canon2.src = "images/armes5.png";
 var flocon = new Image();
-flocon.src="../images/armes1.png";
+flocon.src="images/armes1.png";
 
 var boule= new Image();
-boule.src= "../images/armes2.png";
+boule.src= "images/armes2.png";
 
 var missile= new Image();
-missile.src= "../images/armes3.png";
+missile.src= "images/armes3.png";
 
 var tornade= new Image();
-tornade.src= "../images/armes4.png";
+tornade.src= "images/armes4.png";
 
 
 //déclaration des variable joueurs
 var joueur1= new Image();
-joueur1.src="../images/megaman.png";
+joueur1.src="images/megaman.png";
 
 var joueur2= new Image();
-joueur2.src= "../images/megaman2.png";
+joueur2.src= "images/megaman2.png";
 
 
 //declaration du chemin
 var caseChemin= new Image;
-caseChemin.src="../images/chemin.png";
+caseChemin.src="images/chemin.png";
 
 // si deplacement non autorisé
 var caseImpossible = new Image;
-caseImpossible.src = "../images/interdit.png";
+caseImpossible.src = "images/interdit.png";
 
 //initialisation des coordonnees de la map
 
@@ -132,13 +132,13 @@ function dessine(){
 
     for(i=0;i<6;i++){
         if(joueur.j1.arme== "armes"+i){
-            armeOrigine1.src= "../images/armes"+i+".png";
+            armeOrigine1.src= "images/armes"+i+".png";
             nameWp1.innerHTML= wp["armes"+i].nom;
             degatJ1.innerHTML= wp["armes"+i].degat;
             pv1.innerHTML= joueur.j1.pv;
         }
         if(joueur.j2.arme== "armes"+i){
-            armeOrigine2.src= "../images/armes"+i+".png";
+            armeOrigine2.src= "images/armes"+i+".png";
             nameWp2.innerHTML= wp["armes"+i].nom;
             degatJ2.innerHTML= wp["armes"+i].degat;
             pv2.innerHTML= joueur.j2.pv;
