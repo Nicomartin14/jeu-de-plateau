@@ -1,0 +1,97 @@
+@font-face{
+    font-family : "Sega";
+    src: url(Sega.TTF);
+    font-weight : normal;
+    font-style : normal;
+}
+
+#canvas{
+    border: 1px solid black;
+    display: block;
+    margin-top: 33px;
+    margin: auto;
+}
+
+#titre2{
+    text-align: center;
+    font-family: "Sega";
+    font-size: 40px;
+}
+
+#j1{
+    height: 400px;
+    width: 300px;
+    float: left;
+    background-image:url(../images/fond1.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -500px;
+    text-align : center;
+}
+#pJ1{
+    margin-top: 60px;
+    font-size: 17px;
+    
+}
+#pJ2{
+    margin-top: 60px;
+    font-size: 17px;
+}
+#j2{
+    height: 400px;
+    width: 300px;
+    float: right;
+    margin-top: -500px;
+    background-image:url(../images/fond2.png);
+    font-size: 25px;
+    text-align: center;
+
+}
+
+#newGame{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+#actJ1{
+    display: inline-block;
+    float: left;
+    margin-top: -98px;
+}
+#actJ2{
+    display: block;
+    float: right;
+    margin-top: -98px;
+}
+
+#armeOrigine1{
+    height: 80px;
+    width: 104px;
+}
+
+#armeOrigine2{
+    height: 80px;
+    width: 104px;
+}
+#attaque1{
+    width: 95px;
+    height: 90px;
+}
+#defense1{
+    width: 95px;
+    height: 90px;
+}
+#attaque2{
+    width: 95px;
+    height: 90px;
+}
+#defense2{
+    width: 95px;
+    height: 90px;
+}
+
+body{
+    background-image: url(../images/bgjeu.png);
+    background-position: center
+}
